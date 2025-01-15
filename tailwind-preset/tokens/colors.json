@@ -1,0 +1,16 @@
+{
+  "mybrand": {
+    "light": {
+      "$type": "color",
+      "primary": {
+        "$value": "#ff00ff"
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "primary": {
+        "$value": "#ffeeff"
+      }
+    }
+  }
+}

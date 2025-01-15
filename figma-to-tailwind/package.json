@@ -1,0 +1,22 @@
+{
+  "name": "figma-to-tailwind",
+  "version": "1.0.0",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "npm run figma-to-token && npm run build-tokens",
+    "figma-to-token": "node figma-to-token.cjs",
+    "build-tokens": "style-dictionary build --config ./config.js",
+    "build-css": "npx tailwindcss -i ./demo/input.css -o ./demo/output.css --watch",
+    "test": "mocha 'config/**/*test.js'"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.0.0",
+    "tailwindcss": "^3.4.15",
+    "mocha": "^10.2.0",
+    "chai": "^5.1.1"
+  }
+}

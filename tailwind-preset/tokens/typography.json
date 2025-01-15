@@ -1,0 +1,10 @@
+{
+  "mybrand": {
+    "text": {
+      "small": {
+        "$value": "0.75",
+        "$type": "fontSize"
+      }
+    }
+  }
+}
